@@ -2,7 +2,9 @@
 Dalam JavaScript, istilah "impor" dan "export" digunakan untuk menentukan bagaimana modul diatur dan dibagikan di berbagai bagian aplikasi.<br>
 Pernyataan "Import" digunakan untuk memuat modul ke dalam file, sedangkan pernyataan "export" digunakan untuk mengekspos bagian modul untuk digunakan di file lain. Beberapa import/export mengacu pada kemampuan untuk mengimpor dan mengekspor beberapa item dalam satu pernyataan.<br>
 ### contoh "import" untuk memuat banyak item dari modul seperti ini:<br>
-import { item1, item2, item3 } from './myModule';<br>
+```
+import { item1, item2, item3 } from './myModule';
+```
 Dalam hal ini, item "item1", "item2", dan "item3" sedang diimpor dari file "myModule".<br>
 ### contoh "export" untuk mengekspor beberapa item dari modul seperti ini:
 export { item1, item2, item3 };<br>
