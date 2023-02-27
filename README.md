@@ -1,10 +1,10 @@
 # Apa yang dimaksud dengan multiple import/export javascript?
 Dalam JavaScript, istilah "impor" dan "export" digunakan untuk menentukan bagaimana modul diatur dan dibagikan di berbagai bagian aplikasi.<br>
-Pernyataan "Import" digunakan untuk memuat modul ke dalam file, sedangkan pernyataan "exsport" digunakan untuk mengekspos bagian modul untuk digunakan di file lain. Beberapa import/ekspor mengacu pada kemampuan untuk mengimpor dan mengekspor beberapa item dalam satu pernyataan.<br>
-## contoh "import" untuk memuat banyak item dari modul seperti ini:<br>
+Pernyataan "Import" digunakan untuk memuat modul ke dalam file, sedangkan pernyataan "export" digunakan untuk mengekspos bagian modul untuk digunakan di file lain. Beberapa import/export mengacu pada kemampuan untuk mengimpor dan mengekspor beberapa item dalam satu pernyataan.<br>
+### contoh "import" untuk memuat banyak item dari modul seperti ini:<br>
 import { item1, item2, item3 } from './myModule';<br>
 Dalam hal ini, item "item1", "item2", dan "item3" sedang diimpor dari file "myModule".<br>
-## contoh "ekspor" untuk mengekspor beberapa item dari modul seperti ini:
+### contoh "export" untuk mengekspor beberapa item dari modul seperti ini:
 export { item1, item2, item3 };<br>
 Dalam hal ini, item "item1", "item2", dan "item3" diekspor dari modul.<br><br>
 Beberapa pernyataan impor/ekspor dapat membuat kode lebih ringkas dan lebih mudah dibaca dengan mengurangi jumlah baris kode yang diperlukan untuk mengimpor atau mengekspor beberapa item<br><br>
@@ -45,7 +45,7 @@ console.log(cube(3));<br>
 
 const p = new Point(3, 4);<br>
 console.log(p.distance());<br>
-Dalam contoh ini, menggunakan pernyataan impor tunggal untuk mengimpor beberapa item dari modul "utils". Kami kemudian dapat menggunakan item ini dalam kode kami sesuai kebutuhan.<br>
+Dalam contoh ini, menggunakan pernyataan import tunggal untuk mengimpor beberapa item dari modul "utils". Kami kemudian dapat menggunakan item ini dalam kode kami sesuai kebutuhan.<br>
 ### Secara keseluruhan, menggunakan beberapa pernyataan impor/ekspor dapat membantu membuat kode Anda lebih modular, lebih mudah dibaca, dan lebih mudah dipelihara, terutama dalam aplikasi besar yang memiliki banyak modul dan file berbeda.
 
 
