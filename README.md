@@ -1,6 +1,6 @@
-# Apa yang dimaksud dengan multiple impor/ekspor javascript?
-Dalam JavaScript, istilah "impor" dan "ekspor" digunakan untuk menentukan bagaimana modul diatur dan dibagikan di berbagai bagian aplikasi.<br>
-Pernyataan "Impor" digunakan untuk memuat modul ke dalam file, sedangkan pernyataan "ekspor" digunakan untuk mengekspos bagian modul untuk digunakan di file lain. Beberapa impor/ekspor mengacu pada kemampuan untuk mengimpor dan mengekspor beberapa item dalam satu pernyataan.<br>
+# Apa yang dimaksud dengan multiple import/export javascript?
+Dalam JavaScript, istilah "impor" dan "export" digunakan untuk menentukan bagaimana modul diatur dan dibagikan di berbagai bagian aplikasi.<br>
+Pernyataan "Import" digunakan untuk memuat modul ke dalam file, sedangkan pernyataan "exsport" digunakan untuk mengekspos bagian modul untuk digunakan di file lain. Beberapa import/ekspor mengacu pada kemampuan untuk mengimpor dan mengekspor beberapa item dalam satu pernyataan.<br>
 ## contoh "import" untuk memuat banyak item dari modul seperti ini:<br>
 import { item1, item2, item3 } from './myModule';<br>
 Dalam hal ini, item "item1", "item2", dan "item3" sedang diimpor dari file "myModule".<br>
